@@ -26,8 +26,6 @@ class Weatherdashboards extends Component {
     }
     render() {
       Moment.locale('en');
-      var todaysDate = new Date().getUTCFullYear();
-      console.log('todaysDate ==>', todaysDate);
       var date = Moment().format('DD-MM-YYYY');
       return (
         <div className="weatherReport rightContent" ref="test">
