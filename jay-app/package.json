@@ -34,7 +34,11 @@
     "setupFiles": [
       "./src/setupTests.js"
     ],
-    "transformIgnorePatterns" : ["<rootDir>/node_modules/"],
-    "moduleNameMapper": { "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js" }
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
   }
 }
