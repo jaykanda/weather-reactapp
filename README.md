@@ -5,7 +5,7 @@ This repository contains sample react app
 git clone https://github.com/jaykanda/weather-reactapp.git
 
 #### Open the directory jay-app
-cd jay-app
+```cd jay-app```
 
 #### App setup
 ```npm install``` for downloading and installing the react app dependencies (npm modules)
