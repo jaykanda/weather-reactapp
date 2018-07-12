@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.leftContent {
+  float: left;
+  width: 15%;
+  padding: 15px;
+}
+
+.rightContent {
+  width: 85%;
+  float: left;
+}
+
+form {
+  float: left;
+}
+
+label {
+  padding: 5px;
+  color: #333;
+}
+
+select {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+  clear: both; 
+  border-radius: 3px;
+}
+.selectedCity {
+  margin-top: 15px;
+}
+.selectedCity h5{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.forecast {
+  float: left;
+  width: 250px;
+  height: 100px;
+  border: 1px solid #c2c2c2;
+  margin: 15px;
+  text-align: center;
+  color: #333;
+  background-color: #D2E5FF;
+  border: 1px solid #B0C0D4;
+  border-radius: 3px;
+}
+.forecast div {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 5px auto;
+  text-align: center;
+  width: 100%;
+}
+.forecast div.forecastType {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 5px auto 10px auto;
+  text-align: center;
+  width: 100%;
+}
+.forecast span {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+
+}
+.weatherReport {
+  margin: 0 auto;
+  padding: 5px;
+  width: 850px;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  float: left;
+  margin: 15px;
+}
+.cityItem {
+  font-style: italic;
+}
